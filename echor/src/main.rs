@@ -1,4 +1,3 @@
 fn main() {
-    println!("Hello, world!");
-    return (); // test unit type.
+    println!("{:?}", std::env::args());
 }
