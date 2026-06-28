@@ -5,13 +5,13 @@ fn main() {
         .version("0.1.0")
         .author("Heejun Shin")
         .about("Rust echo")
-        .arg(
-            Arg::with_name("test")
-                .value_name("TEST")
-                .help("Input test")
-                .required(true)
-                .min_values(1),
-        )
+        // .arg(
+        //     Arg::with_name("test")
+        //         .value_name("TEST")
+        //         .help("Input test")
+        //         .required(true)
+        //         .min_values(1),
+        // )
         .arg(
             Arg::with_name("omit_newline")
                 .short("n")
